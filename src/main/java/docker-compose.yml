@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8089:8089"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mydb.czysui4e2ib9.us-east-1.rds.amazonaws.com:3306/travelbooking
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Anshul$112129
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: com.mysql.cj.jdbc.Driver
+      SPRING_SECURITY_USER_NAME: admin
+      SPRING_SECURITY_USER_PASSWORD: password
+      SPRING_WEB_CORS_ALLOWED_ORIGINS: http://localhost:4200
+      SPRING_WEB_CORS_ALLOWED_METHODS: GET,POST,PUT,DELETE,OPTIONS
+      SPRING_WEB_CORS_ALLOWED_HEADERS: "*"
+      SPRING_WEB_CORS_ALLOW_CREDENTIALS: true
+      LOGGING_LEVEL_ROOT: INFO
+      LOGGING_LEVEL_COM_EXAMPLE_TRAVELAPP: DEBUG
+      LOGGING_FILE_NAME: logs/travel-app.log

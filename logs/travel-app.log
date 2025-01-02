@@ -1,0 +1,26 @@
+2024-12-31T11:32:08.479+05:30  INFO 56046 --- [main] c.project.TravelBookingApplicationTests  : Starting TravelBookingApplicationTests using Java 17.0.13 with PID 56046 (started by paridesh in /Users/paridesh/TravelBook)
+2024-12-31T11:32:08.483+05:30  INFO 56046 --- [main] c.project.TravelBookingApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-12-31T11:32:09.027+05:30  INFO 56046 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-31T11:32:09.080+05:30  INFO 56046 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2024-12-31T11:32:09.475+05:30  INFO 56046 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-31T11:32:09.540+05:30  INFO 56046 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-31T11:32:09.571+05:30  INFO 56046 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-31T11:32:09.697+05:30  INFO 56046 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-31T11:32:09.725+05:30  INFO 56046 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-31T11:32:14.756+05:30  INFO 56046 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2337bf27
+2024-12-31T11:32:14.759+05:30  INFO 56046 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-31T11:32:15.536+05:30  INFO 56046 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-31T11:32:16.200+05:30  INFO 56046 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-31T11:32:21.250+05:30  INFO 56046 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-31T11:32:21.673+05:30  WARN 56046 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-31T11:32:22.008+05:30  INFO 56046 --- [main] c.project.TravelBookingApplicationTests  : Started TravelBookingApplicationTests in 13.842 seconds (process running for 15.886)
+2024-12-31T11:32:22.238+05:30  INFO 56046 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-31T11:32:22.241+05:30  INFO 56046 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-31T11:32:23.512+05:30  INFO 56046 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

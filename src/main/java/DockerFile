@@ -1,0 +1,12 @@
+# Use Amazon Corretto JDK 17 as the base image
+FROM amazoncorretto:17.0.7-alpine
+
+
+# Expose the application port
+EXPOSE 8089
+
+# Copy the WAR file from the target directory on the host into the container
+ADD target/TravelBooking-0.0.1-SNAPSHOT.war /TravelBooking-0.0.1-SNAPSHOT.war
+
+# Define the entry point to run the application
+ENTRYPOINT ["java", "-jar", "/TravelBooking-0.0.1-SNAPSHOT.war"]
